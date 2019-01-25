@@ -54,7 +54,7 @@
 		// I tried money_format, but it gave me a fatal error
 		
 		setlocale(LC_MONETARY,"en_US");
-		echo "$ ". number_format($number, 2); 
+		echo "$ ". number_format($number, 2);
 	}
 ?>
 <body>
